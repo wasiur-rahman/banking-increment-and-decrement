@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Banking System</title>
+  </head>
+  <body>
+    <section id="log-in">
+      <div class="wapper">
+        <h2>log in Page</h2>
+        <p class="error"></p>
+        <input type="text" placeholder="Ueser Name" />
+        <input type="password" placeholder="Passwrod" />
+        <button class="btn-submit">Submin</button>
+      </div>
+    </section>
+    <section id="bankign">
+      <div class="wapper">
+        <div class="balance">
+          <h3>Balance : <span>00</span></h3>
+        </div>
+        <div class="deposit">
+          <h3>Deposit : <span>00</span></h3>
+          <p class="error"></p>
+          <form>
+            <input type="number" />
+          </form>
+
+          <button>Add</button>
+        </div>
+        <div class="withdraw">
+          <h3>Withdraw : <span>00</span></h3>
+          <p class="error"></p>
+          <form>
+            <input type="number" />
+          </form>
+
+          <button>Withdraw</button>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
